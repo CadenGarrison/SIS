@@ -10,45 +10,7 @@ public class AddingAndDeleting
 
 		public static void addingAndDeleting()
 		{
-			
-			//Variables to recieve from the user before adding them to an object.
-			
-			String newFirstName;
-			String newLastName;
-			String newPeriodOne;
-			String newPeriodOneGrade;
-			String newPeriodTwo;
-			String newPeriodTwoGrade;
-			String newPeriodThree;
-			String newPeriodThreeGrade;
-			
-			
-			
-			System.out.println("Would you like to add or delete a student?");
-			System.out.println("(1) add\n(2) delete\n(3) leave");
-			
-			int choice= userInput.nextInt();
-			if(choice==1)
-			{
-				//asks for student's data then adds data as a new object 
-				
-				System.out.println("First name:");
-				newFirstName=userInput.nextLine();			
-				System.out.println("Last name:");
-				newLastName=userInput.nextLine();
-				System.out.println("Period one:");
-				newPeriodOne=userInput.nextLine();
-				System.out.println("Period one grade:");
-				newPeriodOneGrade=userInput.nextLine();
-				System.out.println("Period two:");
-				newPeriodTwo=userInput.nextLine();
-				System.out.println("Period two grade:");
-				newPeriodTwoGrade=userInput.nextLine();
-				System.out.println("Period three:");
-				newPeriodThree=userInput.nextLine();
-				System.out.println("Period three grade:");
-				newPeriodThreeGrade=userInput.nextLine();
-				
+
 			//code to add data to a created object, need ArrayList name and name of the class where it is kept
 				//directory.add(new Student(newFirstName, newLastName, newPeriodOne, newPeriodOneGrade, newPeriodTwo, newPeriodTwoGrade, newPeriodThree, newPeriodThreeGrade));
 			}
