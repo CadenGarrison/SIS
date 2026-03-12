@@ -11,6 +11,7 @@ public class SortStudents
 		{
 			Collections.sort(TextFile.directory, new GPASorter());
 			System.out.println("The students listed by GPA are:");
+			System.out.println(" ");
 			System.out.println("Name               Period 1   P1 Grade   Period 2   P2 Grade   Period 3   P3 Grade     GPA");
 			for (Student s: TextFile.directory)
 				{
@@ -28,6 +29,7 @@ SIS_Runner.runsTheWholeProgram();
 			Collections.sort(TextFile.directory, new NameSorter());
 			
 			System.out.println("The students listed by last name are:");
+			System.out.println(" ");
 			System.out.println("Name               Period 1   P1 Grade   Period 2   P2 Grade   Period 3   P3 Grade     GPA");
 			for (Student s: TextFile.directory)
 				{
@@ -50,7 +52,8 @@ SIS_Runner.runsTheWholeProgram();
 			Collections.sort(TextFile.directory, new PeriodSorter());
 			
 			{
-				System.out.println("The students listed by period are:");
+				System.out.println("The students listed by period " + periodToOrganize + " are:");
+				System.out.println(" ");
 				System.out.println("Name               Period 1   P1 Grade   Period 2   P2 Grade   Period 3   P3 Grade     GPA");
 				for (Student s: TextFile.directory)
 					{

@@ -74,7 +74,7 @@ public class AddingAndDeleting
 				
 				for (int i=0; i<TextFile.directory.size();i++)
 					{
-					System.out.print("["+(i+1)+"]");
+					System.out.print("["+(i+1)+"] ");
 						System.out.printf("%-18s %-12s %-8s %-12s %-8s %-12s %-10s %-4s%n", TextFile.directory.get(i).getFirstName() + " " + TextFile.directory.get(i).getLastName(), TextFile.directory.get(i).getFirstPeriod(), TextFile.directory.get(i).getFirstGrade(), 
 								TextFile.directory.get(i).getSecondPeriod(), TextFile.directory.get(i).getSecondGrade(), TextFile.directory.get(i).getThirdPeriod(), TextFile.directory.get(i).getThirdGrade(), TextFile.directory.get(i).getGpa());
 					}
