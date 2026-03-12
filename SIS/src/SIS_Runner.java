@@ -42,7 +42,7 @@ public class SIS_Runner
 							
 						
 							
-							System.out.println("\n\nWhat would you like to do?");
+							System.out.println("\nWhat would you like to do?");
 							System.out.println("1) add or delete a student");
 							System.out.println("2) change student grades/schedule");
 							System.out.println("3) sort students");
@@ -73,7 +73,7 @@ public class SIS_Runner
 								System.out.println("What would you like to do?");
 								System.out.println("(1) Sort students by GPA");
 								System.out.println("(2) Sort students by last name");
-								System.out.println("(3) Sort students by period.");
+								System.out.println("(3) Sort students by period");
 								sortSelection = masterInput.nextInt();
 								if (sortSelection == 1)
 									{
