@@ -22,8 +22,9 @@ public class SIS_Runner
 				{
 					System.out.println("An I/O error occurred: " + exc.getMessage());
 				}
+				
 				gpaCalculator.gpaCalculator();
-				SortStudents.sortByLastName();
+				SortStudents.sortByGPA();
 				System.out.println("Welcome to the Student Information System");
 			
 				
